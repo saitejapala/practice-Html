@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INPUT</title>
+    <style>
+        /* Inline CSS can not e used for placeholder */
+        ::placeholder{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- first element -->
+    <h3>Demo on text fields</h3>
+    <!-- text field allows input lacks of lines  -->
+    <!-- <input type="sai">default for input tag is text box -->
+    <input type="text" ><br><br>
+
+    <!-- setting of input  -->
+    <input type="text" size="50"><br><br>
+
+    <input type="text" id="x" name="y"><br><br>
+
+    <!--"placeholder" Messages that available in the text box-->
+    <input type="text" id="abc" name="abc" placeholder="Enter first name">
+
+    <!-- pseudo Selector is used to change the stile of the placeholder -->
+    <input type="text" id="abc" name="abc" placeholder="Enter first name"><br><br>
+
+    <!-- id should be same for lable and intut with case scensitive -->
+    <label for="lna" >Enter lastname</label>
+    <input type="text" id="lna" name="lna"><br><br>
+
+    <!-- To set the limit Maximum length of charecters -->
+    <input type="text" name="y" id="y" maxlength="5">
+
+    <!-- To Set the default value of the Textbox -->
+    <input type="text" name="z" id="z" value="Sai Teja"><br><br>
+
+    <!-- Readonly is change is not allowed text box values   or  disabled -->
+    <input type="text" name="s" id="s" readonly value="readonly"><br><br>
+    <input type="text" name="s" id="s" disabled value="disabled"><br><br>
+
+    <!-- required attribute will mandatery to enter the value  -->
+    <input type="text" required>
+
+    <!-- Autofocus should be used once
+    adjesting the curser position  -->
+    <input type="text" placeholder="Auto focus" autofocus>
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CSS Precidence</title>
+    <style>
+        /* Tag Selector 1*/
+        h3{ background-color: cyan;}
+        /* Id Selector 4*/
+        #i {background-color: pink;}
+        /* Class Selector 3*/    
+        .c{background-color: orange;}
+        /* Child Selector 2*/
+        div h3{background-color: gray;}
+    </style>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <div >
+        <h3 id="i" class="c">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quasi, perspiciatis dolores neque, ipsam est officia maiores cum ex expedita mollitia fugit voluptate tenetur nam!</h3>
+
+    </div>
+</body>
+</html>
