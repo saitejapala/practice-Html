@@ -8,3 +8,7 @@ table{
 input{
  border:0;
 }
+output{
+    color: black;
+    font-size: 18px;
+}
