@@ -3,6 +3,7 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="CSS files/Grading.css">
+    <script src="JS files/grading.js"></script>
 </head>
 <body style="background-image:url(images/bg.jpg);background-size: cover ;">
     <!-- Finding the grade of the student -->
@@ -40,9 +41,13 @@
               <button onclick="getResult()"> Get Result </button>
             </td>
         </tr>
-        <tr align="right">
-            <td colspan="2"><output id="tot"></output></td><br>
-            <td colspan="2"><output id="avd"></output></td><br>
+        <tr class="out">
+            <td colspan="2"><output id="total"></output></td><br>
+        </tr>
+        <tr class="out">
+            <td colspan="2"><output id="average"></output></td><br>
+        </tr>
+        <tr class="out">
             <td colspan="2"><output id="grade"></output></td><br>
         </tr>
     
