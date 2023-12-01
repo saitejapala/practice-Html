@@ -5,3 +5,6 @@ table{
     width: 280px;
     height: 250px;
 }
+input{
+ border:0;
+}
