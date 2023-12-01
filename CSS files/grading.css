@@ -1,17 +1,29 @@
 *{
 font-family: cursive;
 }
+/* Iam unable to applt background image here so applide in inline tag */
 table{
-    margin: auto;
-    background-color: #F6A5A2;
-    color: #591778;
-    width: 280px;
-    height: 250px;
+    margin-top: 1%;
+    margin-left: 57%;
+    color: #cd2225;
+    width: 350px;
+    height: 400px;
 }
-input{
- border:0;
+
+input:hover{
+    border-color:#000 ;
+    border-radius: 10px;
 }
 output{
     color: black;
     font-size: 18px;
+}
+button{
+    background-color: #e24b4a;
+    box-shadow: 2px 3px 4px #000;
+    /* transition: border-radius 0.3s; */
+}
+button:hover{
+    border-radius: 15px;
+    box-shadow: none;
 }
