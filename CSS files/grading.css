@@ -9,7 +9,9 @@ table{
     width: 350px;
     height: 400px;
 }
-
+.out{
+    text-align-last: right;
+}
 input:hover{
     border-color:#000 ;
     border-radius: 10px;
