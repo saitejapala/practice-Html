@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Demo on Parsing</h3>
+    <script>
+        let x=5,y=6;
+        document.write(`${x+y}<br>`); //No Parsing
+        document.write(`${x-y}<br>`); //auto parsing
+        document.write(`${x>y}<br>`);//no parsing
+        let res=window.parseInt(x)+window.parseInt(y);
+        document.write(`res,<br>`);
+        document.write(parseInt(x)>parseInt(y),'<br>');
+        //+ is a parse operater, Unary operater   //automatically convert
+        res=+"25" + +"60";
+        document.write(res);
+    </script>
+</body>
+</html>
