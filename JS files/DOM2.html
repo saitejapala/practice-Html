@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM(Document Object Model)</title>
+</head>
+<body>
+    <h2>Demo on document objects properties</h2>
+    <h1 id="heading">Hello World</h1>
+    <input type="radio" name="c1" id="green"><label for="green">Green</label>
+    <input type="radio" name="c1" id="red"><label for="red">Red</label>
+    <input type="radio" name="c1" id="blue"><label for="blue">Blue</label><br><br>
+    <span class="c">Red Apple</span>
+    <p class="c">Green Apple</p>
+    <div class="c">yellow Apple</div>
+    <hr>
+    <script>
+        const hob=document.getElementById("heading");
+        document.write(`${hob}<br>`);
+
+        const lob=document.getElementsByTagName(`input`);
+        document.write(`${lob}<br>`);
+
+
+        //List is the sub catagory of collections
+        const iob=document.getElementsByName("c1");
+        document.write(`${iob}<br>`);
+
+        const ob=document.getElementsByClassName(`c`);
+        document.write(`${ob}<br>`);
+
+    </script>
+    
+</body>
+</html>
