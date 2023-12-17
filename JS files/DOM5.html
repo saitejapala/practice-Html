@@ -6,6 +6,16 @@
     <title>DOM(Document Object Model)</title>
 </head>
 <body>
-    
+    <h2>Demo on element object properties</h2>
+    <img src="download.jpeg" alt="nature" id="img1" width="150" height="150" border="4">
+    <hr>
+    <script>
+        const img=document.getElementById("img1");
+        document.write(`${img.src}<br>${img.width}<br>${img.heigth}<br>`);
+        img.src="marvel.jpg";
+        img.width="250px";
+        img.border="0px";
+        img.removeAttribute("border");
+    </script>
 </body>
 </html>
