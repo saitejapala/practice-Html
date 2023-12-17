@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM(Document Object Model)</title>
+    <style>
+        #i1{color: red;}
+        .c1{color: blue;}
+    </style>
+</head>
+<body>
+    <h2>Demo on Document object methods</h2>
+    <h2 id="i1">Hello World</h2>
+    <p class="c1">HTML</p>
+    <div class="c1">JavaScript</div>
+    <hr>
+    <script>
+        const ob1=document.querySelector("#i1");
+        document.write(`${ob1}<br>`);//[object HTMLHeadingElement]
+
+        //Selects the first occurence
+        const ob2=document.querySelector(".c1");
+        document.write(`${ob2}<br>`);//[object HTMLParagraphElement]
+
+        //Selects all
+        const ob3=document.querySelectorAll(".c1");
+        document.write(`${ob3}<br>`);//[object NodeList]
+
+
+    </script>
+</body>
+</html>
