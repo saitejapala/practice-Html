@@ -6,6 +6,23 @@
     <title>DOM(Document Object Model)</title>
 </head>
 <body>
-    
+    <h2>Demo on Element Object properties</h2>
+    <h1 id="head1">Hello</h1>
+    <input type="text" id="tb" value="1000" readonly>
+    <hr>
+    <script>
+        const h1=document.getElementById("head1");
+        // const h1=document.querySelector("#head1");
+        let x=h1.innerText;
+        document.write(`${x}<br>`);
+        // h1.innerText="";     //=>makes the h1 tag empty dynamically
+        // h1.innerText="Sai";  //=>it edit's the h1 tag to Sai
+        h1.innerText+=" World"; //=>it concatinates the Worldto the existing text
+
+        const tb=document.getElementById("tb");
+        document.write(`${tb.valie}<br>`);
+        // tb.value="";
+        // tb.value="Sai Teja";
+    </script>
 </body>
 </html>
