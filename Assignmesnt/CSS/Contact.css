@@ -1,0 +1,34 @@
+*{
+    font-family:arial;
+}
+#contact {
+    text-align: center; /* Center the figures */
+    width: 70%;
+    margin: 0 auto;
+    
+}
+figure{
+    display: inline-block;
+    margin: 0 2px; 
+    width: 165.11px;
+}
+img{
+    width:40px;
+    height: 40px;
+}
+h2{
+    text-align: center;
+    font-weight:600;
+}
+footer{
+    color: rgb(141, 136, 136);
+    background-color: rgba(231, 231, 231, 0.904);
+    padding: 18px;
+    font-size: 13px;
+    position:fixed;
+    bottom:0;
+}
+footer p{
+    margin: 0;
+}
+ 
