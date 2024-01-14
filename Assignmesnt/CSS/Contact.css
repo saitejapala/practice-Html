@@ -1,10 +1,16 @@
 *{
     font-family:arial;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 #contact {
     text-align: center; /* Center the figures */
     width: 70%;
     margin: 0 auto;
+    flex: 1;
     
 }
 figure{
@@ -25,8 +31,7 @@ footer{
     background-color: rgba(231, 231, 231, 0.904);
     padding: 18px;
     font-size: 13px;
-    position:fixed;
-    bottom:0;
+  
 }
 footer p{
     margin: 0;
